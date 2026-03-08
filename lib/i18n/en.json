@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Home",
+    "education": "Education",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "> initializing system...",
+    "name": "Bekzod Keldiyorov",
+    "role": "Backend Developer",
+    "subtitle": "Architecting Solid, Scalable Backend Systems",
+    "description": "Building high-performance server architectures, designing robust REST APIs, and engineering enterprise-grade solutions with C# and the .NET ecosystem.",
+    "cta_primary": "View Architecture",
+    "cta_secondary": "Deploy Contact"
+  },
+  "education": {
+    "title": "Education & Mentorship",
+    "subtitle": "My learning journey and teaching experience",
+    "items": [
+      {
+        "title": "Robotics Lab LC",
+        "period": "1 Year",
+        "description": "Spent 6 months mastering the C# ecosystem — from fundamentals to advanced patterns. Dedicated the other 6 months to foundational IT skills, building a rock-solid technical base.",
+        "tags": ["C#", ".NET", "IT Fundamentals"]
+      },
+      {
+        "title": "IT Instructor / Mentor",
+        "period": "Independent",
+        "description": "Developed a custom course focusing on C# and .NET. Mentored students who now work at major tech companies like Beeline. Passion for sharing knowledge and building the next generation of developers.",
+        "tags": ["Teaching", "C#", ".NET", "Mentoring"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Experience & Projects",
+    "subtitle": "Systems I've architected and deployed",
+    "items": [
+      {
+        "title": "Kubesec",
+        "role": "Backend Architect",
+        "description": "Architected and developed the initial backend foundation. Set up the core backend structure, early APIs, and initial logic using C# and .NET tools to kickstart the platform.",
+        "tags": ["C#", ".NET", "REST API", "Backend Architecture"],
+        "status": "Production"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Arsenal",
+    "subtitle": "Technologies and tools in my stack",
+    "categories": {
+      "languages": {
+        "title": "Languages",
+        "items": ["C#", "C++"]
+      },
+      "frameworks": {
+        "title": "Frameworks",
+        "items": ["ASP.NET", "WinForms", "WPF"]
+      },
+      "databases": {
+        "title": "Databases",
+        "items": ["PostgreSQL"]
+      },
+      "architecture": {
+        "title": "Architecture",
+        "items": ["Microservices", "Backend Development", "REST APIs"]
+      },
+      "tools": {
+        "title": "Tools",
+        "items": [".NET Ecosystem", "Git", "GitHub"]
+      }
+    }
+  },
+  "footer": {
+    "title": "Deploy Contact",
+    "subtitle": "Let's build something powerful together",
+    "phone": "+998 88 010-19-79",
+    "email": "bekhzodkeldiyorov@gmail.com",
+    "telegram": "@keldiyorov_bz",
+    "github": "bekzod28072009",
+    "location": "Tashkent, Uzbekistan",
+    "languages": "Uzbek (Native), Russian (B2), English (B2)",
+    "copyright": "All rights reserved."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "education": "Ta'lim",
+    "projects": "Loyihalar",
+    "skills": "Ko'nikmalar",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "greeting": "> tizim ishga tushmoqda...",
+    "name": "Bekzod Keldiyorov",
+    "role": "Backend Dasturchi",
+    "subtitle": "Mustahkam, kengaytiriladigan backend tizimlarni loyihalash",
+    "description": "Yuqori unumdorlikka ega server arxitekturalarini qurish, ishonchli REST API'larni loyihalash va C# hamda .NET ekotizimi yordamida korporativ darajadagi yechimlarni ishlab chiqish.",
+    "cta_primary": "Arxitekturani ko'rish",
+    "cta_secondary": "Bog'lanish"
+  },
+  "education": {
+    "title": "Ta'lim va mentorlik",
+    "subtitle": "Mening o'qish va o'qitish tajribam",
+    "items": [
+      {
+        "title": "Robotics Lab LC",
+        "period": "1 yil",
+        "description": "6 oyni C# ekotizimini o'zlashtirishga bag'ishladim — asoslardan murakkab patternlargacha. Qolgan 6 oyni asosiy IT ko'nikmalariga bag'ishlab, mustahkam texnik poydevor yaratdim.",
+        "tags": ["C#", ".NET", "IT asoslari"]
+      },
+      {
+        "title": "IT O'qituvchi / Mentor",
+        "period": "Mustaqil",
+        "description": "C# va .NET bo'yicha maxsus kurs ishlab chiqdim. Hozirda Beeline kabi yirik texnologik kompaniyalarda ishlaydigan talabalarni mentorlagan. Bilim almashish va yangi avlod dasturchilirini tayyorlash — mening ishtiyoqim.",
+        "tags": ["O'qitish", "C#", ".NET", "Mentorlik"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Tajriba va loyihalar",
+    "subtitle": "Men loyihalagan va ishga tushirgan tizimlar",
+    "items": [
+      {
+        "title": "Kubesec",
+        "role": "Backend Arxitektor",
+        "description": "Dastlabki backend asosini loyihaladim va ishlab chiqdim. C# va .NET vositalari yordamida asosiy backend tuzilmasini, dastlabki API'larni va boshlang'ich mantiqni o'rnatib, platformani ishga tushirdim.",
+        "tags": ["C#", ".NET", "REST API", "Backend Architecture"],
+        "status": "Production"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Texnik arsenal",
+    "subtitle": "Mening stekimdagi texnologiyalar va vositalar",
+    "categories": {
+      "languages": {
+        "title": "Tillar",
+        "items": ["C#", "C++"]
+      },
+      "frameworks": {
+        "title": "Freymvorklar",
+        "items": ["ASP.NET", "WinForms", "WPF"]
+      },
+      "databases": {
+        "title": "Ma'lumotlar bazalari",
+        "items": ["PostgreSQL"]
+      },
+      "architecture": {
+        "title": "Arxitektura",
+        "items": ["Mikroservislar", "Backend dasturlash", "REST API"]
+      },
+      "tools": {
+        "title": "Vositalar",
+        "items": [".NET ekotizimi", "Git", "GitHub"]
+      }
+    }
+  },
+  "footer": {
+    "title": "Bog'lanish",
+    "subtitle": "Keling, birga kuchli narsa yarataylik",
+    "phone": "+998 88 010-19-79",
+    "email": "bekhzodkeldiyorov@gmail.com",
+    "telegram": "@keldiyorov_bz",
+    "github": "bekzod28072009",
+    "location": "Toshkent, O'zbekiston",
+    "languages": "O'zbek (Ona tili), Rus (B2), Ingliz (B2)",
+    "copyright": "Barcha huquqlar himoyalangan."
+  }
+}
