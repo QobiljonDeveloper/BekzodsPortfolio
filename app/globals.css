@@ -9,7 +9,6 @@
   --color-deep-rose-dim: #be123c;
   --color-server-dark: #09090b;
   --color-server-card: rgba(24, 24, 27, 0.6);
-  --color-server-card-light: rgba(244, 244, 245, 0.7);
   --color-glass-border: rgba(168, 85, 247, 0.15);
   --color-glass-border-hover: rgba(168, 85, 247, 0.4);
 
@@ -80,14 +79,14 @@
   }
 }
 
-/* Base styles - Light mode default */
+/* Base styles — Light mode default */
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-sans);
-  background: #f4f4f5;
+  background: #fafafa;
   color: #18181b;
   overflow-x: hidden;
 }
@@ -120,23 +119,29 @@ body {
   background: #c084fc;
 }
 
-/* Glass card utility — Light mode */
+/* ======================= */
+/* Glass card — Light mode */
+/* ======================= */
 .glass-card {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(168, 85, 247, 0.15);
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
 }
 
 .glass-card:hover {
-  border-color: rgba(168, 85, 247, 0.4);
-  box-shadow: 0 0 20px rgba(168, 85, 247, 0.08);
+  border-color: rgba(168, 85, 247, 0.45);
+  box-shadow: 0 4px 24px rgba(168, 85, 247, 0.12);
 }
 
-/* Glass card — Dark mode */
+/* ======================= */
+/* Glass card — Dark mode  */
+/* ======================= */
 .dark .glass-card {
   background: var(--color-server-card);
   border-color: var(--color-glass-border);
+  box-shadow: none;
 }
 
 .dark .glass-card:hover {

@@ -23,10 +23,10 @@ export default function Education() {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl sm:text-4xl font-bold font-mono text-zinc-800 dark:text-zinc-100 mb-3">
-                        <span className="text-purple-500">#</span> {title}
+                    <h2 className="text-3xl sm:text-4xl font-bold font-mono text-zinc-900 dark:text-zinc-100 mb-3">
+                        <span className="text-purple-600 dark:text-purple-500">#</span> {title}
                     </h2>
-                    <p className="text-zinc-500 dark:text-zinc-500 font-mono text-sm">{subtitle}</p>
+                    <p className="text-zinc-600 dark:text-zinc-500 font-mono text-sm">{subtitle}</p>
                 </motion.div>
 
                 {/* Timeline */}
@@ -50,7 +50,7 @@ export default function Education() {
                             >
                                 {/* Timeline dot */}
                                 <motion.div
-                                    className="absolute left-6 md:left-1/2 -translate-x-1/2 w-3 h-3 bg-purple-500 rounded-sm z-10 ring-4 ring-zinc-100 dark:ring-zinc-950"
+                                    className="absolute left-6 md:left-1/2 -translate-x-1/2 w-3 h-3 bg-purple-500 rounded-sm z-10 ring-4 ring-white dark:ring-zinc-950"
                                     animate={{ boxShadow: ["0 0 0px rgba(168,85,247,0.3)", "0 0 15px rgba(168,85,247,0.6)", "0 0 0px rgba(168,85,247,0.3)"] }}
                                     transition={{ duration: 2, repeat: Infinity }}
                                 />
@@ -70,17 +70,17 @@ export default function Education() {
                                     >
                                         <div className="flex items-center gap-3 mb-3">
                                             <div className="p-2 bg-purple-500/10 border border-purple-500/20 rounded-sm">
-                                                <Icon className="w-4 h-4 text-purple-500 dark:text-purple-400" />
+                                                <Icon className="w-4 h-4 text-purple-600 dark:text-purple-400" />
                                             </div>
                                             <div>
-                                                <h3 className="font-mono font-bold text-zinc-800 dark:text-zinc-100 text-base">
+                                                <h3 className="font-mono font-bold text-zinc-900 dark:text-zinc-100 text-base">
                                                     {item.title}
                                                 </h3>
-                                                <span className="text-xs font-mono text-rose-500 dark:text-rose-400">{item.period}</span>
+                                                <span className="text-xs font-mono text-rose-600 dark:text-rose-400">{item.period}</span>
                                             </div>
                                         </div>
 
-                                        <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed mb-4 font-mono">
+                                        <p className="text-sm text-zinc-700 dark:text-zinc-400 leading-relaxed mb-4 font-mono">
                                             {item.description}
                                         </p>
 
@@ -88,7 +88,7 @@ export default function Education() {
                                             {item.tags.map((tag) => (
                                                 <span
                                                     key={tag}
-                                                    className="px-2 py-0.5 text-xs font-mono text-purple-600 dark:text-purple-400 bg-purple-500/10 border border-purple-500/20 rounded-sm"
+                                                    className="px-2 py-0.5 text-xs font-mono text-purple-700 dark:text-purple-400 bg-purple-500/10 border border-purple-500/25 dark:border-purple-500/20 rounded-sm"
                                                 >
                                                     {tag}
                                                 </span>

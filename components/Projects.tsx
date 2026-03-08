@@ -27,10 +27,10 @@ export default function Projects() {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl sm:text-4xl font-bold font-mono text-zinc-800 dark:text-zinc-100 mb-3">
-                        <span className="text-purple-500">#</span> {title}
+                    <h2 className="text-3xl sm:text-4xl font-bold font-mono text-zinc-900 dark:text-zinc-100 mb-3">
+                        <span className="text-purple-600 dark:text-purple-500">#</span> {title}
                     </h2>
-                    <p className="text-zinc-500 dark:text-zinc-500 font-mono text-sm">{subtitle}</p>
+                    <p className="text-zinc-600 dark:text-zinc-500 font-mono text-sm">{subtitle}</p>
                 </motion.div>
 
                 {/* Projects Grid */}
@@ -61,27 +61,27 @@ export default function Projects() {
                                 {/* Project icon & status */}
                                 <div className="flex items-start justify-between mb-4">
                                     <div className="p-3 bg-purple-500/10 border border-purple-500/20 rounded-sm">
-                                        <Server className="w-5 h-5 text-purple-500 dark:text-purple-400" />
+                                        <Server className="w-5 h-5 text-purple-600 dark:text-purple-400" />
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <span className="flex items-center gap-1.5 px-2 py-1 text-xs font-mono text-green-600 dark:text-green-400 bg-green-500/10 border border-green-500/20 rounded-sm">
-                                            <span className="w-1.5 h-1.5 bg-green-500 dark:bg-green-400 rounded-full animate-pulse" />
+                                        <span className="flex items-center gap-1.5 px-2 py-1 text-xs font-mono text-green-700 dark:text-green-400 bg-green-500/10 border border-green-500/20 rounded-sm">
+                                            <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
                                             {project.status}
                                         </span>
                                     </div>
                                 </div>
 
                                 {/* Project title & role */}
-                                <h3 className="text-xl font-bold font-mono text-zinc-800 dark:text-zinc-100 mb-1 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                                <h3 className="text-xl font-bold font-mono text-zinc-900 dark:text-zinc-100 mb-1 group-hover:text-purple-700 dark:group-hover:text-purple-400 transition-colors">
                                     {project.title}
                                 </h3>
-                                <p className="text-xs font-mono text-rose-500 dark:text-rose-400 mb-3 flex items-center gap-1">
+                                <p className="text-xs font-mono text-rose-600 dark:text-rose-400 mb-3 flex items-center gap-1">
                                     <Layers className="w-3 h-3" />
                                     {project.role}
                                 </p>
 
                                 {/* Description */}
-                                <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed mb-5 font-mono">
+                                <p className="text-sm text-zinc-700 dark:text-zinc-400 leading-relaxed mb-5 font-mono">
                                     {project.description}
                                 </p>
 
@@ -90,7 +90,7 @@ export default function Projects() {
                                     {project.tags.map((tag) => (
                                         <span
                                             key={tag}
-                                            className="px-2 py-0.5 text-xs font-mono text-purple-600 dark:text-purple-400 bg-purple-500/10 border border-purple-500/20 rounded-sm"
+                                            className="px-2 py-0.5 text-xs font-mono text-purple-700 dark:text-purple-400 bg-purple-500/10 border border-purple-500/25 dark:border-purple-500/20 rounded-sm"
                                         >
                                             {tag}
                                         </span>
@@ -99,7 +99,7 @@ export default function Projects() {
 
                                 {/* View link */}
                                 <motion.div
-                                    className="flex items-center gap-1 text-xs font-mono text-zinc-500 dark:text-zinc-500 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors"
+                                    className="flex items-center gap-1 text-xs font-mono text-zinc-500 group-hover:text-purple-700 dark:group-hover:text-purple-400 transition-colors"
                                     whileHover={{ x: 4 }}
                                 >
                                     <ExternalLink className="w-3 h-3" />

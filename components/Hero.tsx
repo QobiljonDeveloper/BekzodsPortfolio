@@ -50,7 +50,7 @@ export default function Hero() {
                     transition={{ delay: 0.2, duration: 0.6 }}
                     className="mb-6"
                 >
-                    <span className="font-mono text-sm text-purple-600/70 dark:text-purple-500/70 tracking-wider">
+                    <span className="font-mono text-sm text-purple-700 dark:text-purple-500/70 tracking-wider">
                         {t("hero.greeting") as string}
                     </span>
                 </motion.div>
@@ -63,7 +63,7 @@ export default function Hero() {
                     className="mb-4"
                 >
                     <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold font-mono tracking-tight">
-                        <span className="text-zinc-800 dark:text-zinc-100">
+                        <span className="text-zinc-900 dark:text-zinc-100">
                             {displayedName}
                         </span>
                         <span
@@ -80,7 +80,7 @@ export default function Hero() {
                     transition={{ duration: 0.5 }}
                     className="mb-6"
                 >
-                    <span className="inline-block px-4 py-1.5 text-sm font-mono text-rose-600 dark:text-rose-400 border border-rose-500/30 rounded-sm bg-rose-500/5">
+                    <span className="inline-block px-4 py-1.5 text-sm font-mono text-rose-700 dark:text-rose-400 border border-rose-500/40 dark:border-rose-500/30 rounded-sm bg-rose-500/10 dark:bg-rose-500/5">
                         [ {t("hero.role") as string} ]
                     </span>
                 </motion.div>
@@ -90,7 +90,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: typingComplete ? 1 : 0, y: typingComplete ? 0 : 20 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
-                    className="text-lg sm:text-xl md:text-2xl font-light text-zinc-600 dark:text-zinc-400 mb-4 max-w-2xl mx-auto"
+                    className="text-lg sm:text-xl md:text-2xl font-light text-zinc-700 dark:text-zinc-400 mb-4 max-w-2xl mx-auto"
                 >
                     {t("hero.subtitle") as string}
                 </motion.p>
@@ -100,7 +100,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: typingComplete ? 1 : 0, y: typingComplete ? 0 : 20 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
-                    className="text-sm sm:text-base text-zinc-500 dark:text-zinc-500 mb-10 max-w-xl mx-auto font-mono leading-relaxed"
+                    className="text-sm sm:text-base text-zinc-600 dark:text-zinc-500 mb-10 max-w-xl mx-auto font-mono leading-relaxed"
                 >
                     {t("hero.description") as string}
                 </motion.p>
@@ -126,7 +126,7 @@ export default function Hero() {
 
                     <motion.a
                         href="#contact"
-                        className="group px-8 py-3 border border-rose-500/30 hover:border-rose-500/60 text-rose-600 dark:text-rose-400 hover:text-rose-500 dark:hover:text-rose-300 font-mono text-sm rounded-sm transition-all"
+                        className="group px-8 py-3 border border-rose-500/40 hover:border-rose-500/70 text-rose-700 dark:text-rose-400 hover:text-rose-600 dark:hover:text-rose-300 font-mono text-sm rounded-sm transition-all"
                         whileHover={{ scale: 1.05, boxShadow: "0 0 25px rgba(225,29,72,0.2)" }}
                         whileTap={{ scale: 0.95 }}
                     >

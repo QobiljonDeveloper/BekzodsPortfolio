@@ -44,10 +44,10 @@ export default function Footer() {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-12"
                 >
-                    <h2 className="text-3xl sm:text-4xl font-bold font-mono text-zinc-800 dark:text-zinc-100 mb-3">
-                        <span className="text-purple-500">&gt;</span> {title}
+                    <h2 className="text-3xl sm:text-4xl font-bold font-mono text-zinc-900 dark:text-zinc-100 mb-3">
+                        <span className="text-purple-600 dark:text-purple-500">&gt;</span> {title}
                     </h2>
-                    <p className="text-zinc-500 dark:text-zinc-500 font-mono text-sm">{subtitle}</p>
+                    <p className="text-zinc-600 dark:text-zinc-500 font-mono text-sm">{subtitle}</p>
                 </motion.div>
 
                 {/* Contact Grid */}
@@ -69,9 +69,9 @@ export default function Footer() {
                             className="glass-card rounded-md p-4 flex items-center gap-3 group"
                         >
                             <div className="p-2 bg-purple-500/10 border border-purple-500/20 rounded-sm group-hover:bg-purple-500/20 transition-colors">
-                                <item.icon className="w-4 h-4 text-purple-500 dark:text-purple-400" />
+                                <item.icon className="w-4 h-4 text-purple-600 dark:text-purple-400" />
                             </div>
-                            <span className="text-sm font-mono text-zinc-600 dark:text-zinc-400 group-hover:text-zinc-800 dark:group-hover:text-zinc-200 transition-colors truncate">
+                            <span className="text-sm font-mono text-zinc-700 dark:text-zinc-400 group-hover:text-zinc-900 dark:group-hover:text-zinc-200 transition-colors truncate">
                                 {item.label}
                             </span>
                         </motion.a>
@@ -86,12 +86,12 @@ export default function Footer() {
                     transition={{ delay: 0.5 }}
                     className="pt-8 border-t border-zinc-300/50 dark:border-zinc-800/50 flex flex-col sm:flex-row items-center justify-between gap-4"
                 >
-                    <div className="flex items-center gap-2 text-zinc-500 dark:text-zinc-600 font-mono text-xs">
+                    <div className="flex items-center gap-2 text-zinc-600 dark:text-zinc-600 font-mono text-xs">
                         <Terminal className="w-3 h-3" />
                         <span>© {new Date().getFullYear()} Bekzod Keldiyorov. {copyright}</span>
                     </div>
 
-                    <div className="flex items-center gap-1 text-zinc-400 dark:text-zinc-700 font-mono text-xs">
+                    <div className="flex items-center gap-1 text-zinc-500 dark:text-zinc-700 font-mono text-xs">
                         <span className="text-purple-500/50">&lt;/&gt;</span>
                         <span>Built with precision</span>
                     </div>

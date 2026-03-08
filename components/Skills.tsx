@@ -19,11 +19,11 @@ const categoryIcons: Record<string, typeof Code2> = {
 };
 
 const categoryColors: Record<string, { text: string; border: string; bg: string }> = {
-    languages: { text: "text-purple-600 dark:text-purple-400", border: "border-purple-500/30", bg: "bg-purple-500/10" },
-    frameworks: { text: "text-rose-600 dark:text-rose-400", border: "border-rose-500/30", bg: "bg-rose-500/10" },
-    databases: { text: "text-amber-600 dark:text-amber-400", border: "border-amber-500/30", bg: "bg-amber-500/10" },
-    architecture: { text: "text-cyan-600 dark:text-cyan-400", border: "border-cyan-500/30", bg: "bg-cyan-500/10" },
-    tools: { text: "text-lime-600 dark:text-lime-400", border: "border-lime-500/30", bg: "bg-lime-500/10" },
+    languages: { text: "text-purple-700 dark:text-purple-400", border: "border-purple-500/30", bg: "bg-purple-500/10" },
+    frameworks: { text: "text-rose-700 dark:text-rose-400", border: "border-rose-500/30", bg: "bg-rose-500/10" },
+    databases: { text: "text-amber-700 dark:text-amber-400", border: "border-amber-500/30", bg: "bg-amber-500/10" },
+    architecture: { text: "text-cyan-700 dark:text-cyan-400", border: "border-cyan-500/30", bg: "bg-cyan-500/10" },
+    tools: { text: "text-lime-700 dark:text-lime-400", border: "border-lime-500/30", bg: "bg-lime-500/10" },
 };
 
 export default function Skills() {
@@ -43,10 +43,10 @@ export default function Skills() {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl sm:text-4xl font-bold font-mono text-zinc-800 dark:text-zinc-100 mb-3">
-                        <span className="text-purple-500">#</span> {title}
+                    <h2 className="text-3xl sm:text-4xl font-bold font-mono text-zinc-900 dark:text-zinc-100 mb-3">
+                        <span className="text-purple-600 dark:text-purple-500">#</span> {title}
                     </h2>
-                    <p className="text-zinc-500 dark:text-zinc-500 font-mono text-sm">{subtitle}</p>
+                    <p className="text-zinc-600 dark:text-zinc-500 font-mono text-sm">{subtitle}</p>
                 </motion.div>
 
                 {/* Skills Grid */}
@@ -79,7 +79,7 @@ export default function Skills() {
                                     <div className={`p-2 ${colors.bg} border ${colors.border} rounded-sm`}>
                                         <Icon className={`w-4 h-4 ${colors.text}`} />
                                     </div>
-                                    <h3 className="font-mono font-bold text-zinc-700 dark:text-zinc-200 text-sm tracking-wider uppercase">
+                                    <h3 className="font-mono font-bold text-zinc-800 dark:text-zinc-200 text-sm tracking-wider uppercase">
                                         {category.title}
                                     </h3>
                                 </div>

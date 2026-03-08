@@ -52,7 +52,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <motion.a
                         href="#home"
-                        className="flex items-center gap-2 text-purple-600 dark:text-purple-400 font-mono text-sm font-bold tracking-wider"
+                        className="flex items-center gap-2 text-purple-700 dark:text-purple-400 font-mono text-sm font-bold tracking-wider"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
@@ -67,7 +67,7 @@ export default function Navbar() {
                             <motion.a
                                 key={link.key}
                                 href={link.href}
-                                className="px-3 py-2 text-sm font-mono text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors rounded-sm relative group"
+                                className="px-3 py-2 text-sm font-mono text-zinc-700 dark:text-zinc-400 hover:text-purple-700 dark:hover:text-purple-400 transition-colors rounded-sm relative group"
                                 whileHover={{ y: -2 }}
                                 transition={{ duration: 0.2 }}
                             >
@@ -84,7 +84,7 @@ export default function Navbar() {
                         <div className="relative">
                             <motion.button
                                 onClick={() => setIsLangOpen(!isLangOpen)}
-                                className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-mono text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 border border-zinc-300 dark:border-zinc-800 hover:border-purple-500/30 rounded-sm transition-all"
+                                className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-mono text-zinc-700 dark:text-zinc-400 hover:text-purple-700 dark:hover:text-purple-400 border border-zinc-300 dark:border-zinc-800 hover:border-purple-500/30 rounded-sm transition-all"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                             >
@@ -108,8 +108,8 @@ export default function Navbar() {
                                                     setIsLangOpen(false);
                                                 }}
                                                 className={`w-full px-3 py-2 text-left text-sm font-mono transition-colors ${locale === lang.code
-                                                        ? "text-purple-600 dark:text-purple-400 bg-purple-500/10"
-                                                        : "text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
+                                                        ? "text-purple-700 dark:text-purple-400 bg-purple-500/10"
+                                                        : "text-zinc-700 dark:text-zinc-400 hover:text-purple-700 dark:hover:text-purple-400 hover:bg-zinc-100 dark:hover:bg-zinc-800/50"
                                                     }`}
                                             >
                                                 {lang.label}
@@ -123,7 +123,7 @@ export default function Navbar() {
                         {/* Theme Toggle */}
                         <motion.button
                             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                            className="p-2 text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 border border-zinc-300 dark:border-zinc-800 hover:border-purple-500/30 rounded-sm transition-all"
+                            className="p-2 text-zinc-700 dark:text-zinc-400 hover:text-purple-700 dark:hover:text-purple-400 border border-zinc-300 dark:border-zinc-800 hover:border-purple-500/30 rounded-sm transition-all"
                             whileHover={{ scale: 1.1, rotate: 180 }}
                             whileTap={{ scale: 0.9 }}
                             transition={{ duration: 0.3 }}
@@ -134,7 +134,7 @@ export default function Navbar() {
                         {/* Mobile Menu Toggle */}
                         <motion.button
                             onClick={() => setIsMobileOpen(!isMobileOpen)}
-                            className="md:hidden p-2 text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 border border-zinc-300 dark:border-zinc-800 rounded-sm"
+                            className="md:hidden p-2 text-zinc-700 dark:text-zinc-400 hover:text-purple-700 dark:hover:text-purple-400 border border-zinc-300 dark:border-zinc-800 rounded-sm"
                             whileTap={{ scale: 0.9 }}
                         >
                             {isMobileOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
@@ -162,7 +162,7 @@ export default function Navbar() {
                                     animate={{ x: 0, opacity: 1 }}
                                     transition={{ delay: i * 0.05 }}
                                     onClick={() => setIsMobileOpen(false)}
-                                    className="block px-3 py-2 text-sm font-mono text-zinc-600 dark:text-zinc-400 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-zinc-100 dark:hover:bg-zinc-900/50 rounded-sm transition-colors"
+                                    className="block px-3 py-2 text-sm font-mono text-zinc-700 dark:text-zinc-400 hover:text-purple-700 dark:hover:text-purple-400 hover:bg-zinc-100 dark:hover:bg-zinc-900/50 rounded-sm transition-colors"
                                 >
                                     <span className="text-purple-500/50 mr-2">&gt;</span>
                                     {t(link.key) as string}
